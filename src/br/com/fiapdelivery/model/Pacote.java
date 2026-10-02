@@ -5,6 +5,11 @@ public class Pacote {
     private double peso;
     private String status;
 
+    public Pacote(String codigo, double peso) {
+        this.codigo = codigo;
+        this.peso = peso;
+    }
+
     public String getCodigo() {
         return codigo;
     }

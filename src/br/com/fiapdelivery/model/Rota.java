@@ -4,6 +4,16 @@ public class Rota {
     private Pacote pacoteParaEnvio;
     private Veiculo veiculoDeEnvio;
 
+    public Rota(Pacote pacote, Caminhao caminhao) {
+        this.pacoteParaEnvio = pacote;
+        this.veiculoDeEnvio = caminhao;
+    }
+
+    public Rota(Pacote pacote, Moto moto) {
+        this.pacoteParaEnvio = pacote;
+        this.veiculoDeEnvio = moto;
+    }
+
     public Pacote getPacoteParaEnvio() {
         return pacoteParaEnvio;
     }
