@@ -26,7 +26,7 @@ public class Pacote {
     }
 
     public void setStatus(String status) {
-        this.status = "Pendente";
+        this.status = status;
     }
 
     public void atualizarStatus(String novoStatus){

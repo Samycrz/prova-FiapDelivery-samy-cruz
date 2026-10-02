@@ -4,6 +4,11 @@ public class Veiculo {
     private String placa;
     private double capacidadeDeCarga;
 
+    public Veiculo(String placa, double capacidadeDeCarga) {
+        this.placa = placa;
+        this.setCapacidadeDeCarga(capacidadeDeCarga);
+    }
+
     public double getCapacidadeDeCarga() {
         return capacidadeDeCarga;
     }

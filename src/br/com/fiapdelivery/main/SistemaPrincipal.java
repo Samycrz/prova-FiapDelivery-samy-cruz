@@ -6,7 +6,7 @@ import br.com.fiapdelivery.model.Pacote;
 import br.com.fiapdelivery.model.Rota;
 
 public class SistemaPrincipal {
-    static void main(String[] args) {
+    public static void main(String[] args) {
         Caminhao caminhao1 = new Caminhao();
 
         caminhao1.setPlaca("ABCD1234");
